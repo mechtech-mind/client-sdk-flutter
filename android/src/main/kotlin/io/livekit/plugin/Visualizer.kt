@@ -20,8 +20,8 @@ import android.os.Handler
 import android.os.Looper
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.EventChannel
-import org.webrtc.AudioTrack
-import org.webrtc.AudioTrackSink
+import livekit.org.webrtc.AudioTrack
+import livekit.org.webrtc.AudioTrackSink
 import java.nio.ByteBuffer
 import kotlin.math.*
 

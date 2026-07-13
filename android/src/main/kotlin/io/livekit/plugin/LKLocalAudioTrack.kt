@@ -17,7 +17,7 @@
 package io.livekit.plugin
 
 import com.cloudwebrtc.webrtc.audio.LocalAudioTrack
-import org.webrtc.AudioTrackSink
+import livekit.org.webrtc.AudioTrackSink
 
 class LKLocalAudioTrack(localAudioTrack: LocalAudioTrack) : LKAudioTrack {
     private var localAudioTrack: LocalAudioTrack? = localAudioTrack

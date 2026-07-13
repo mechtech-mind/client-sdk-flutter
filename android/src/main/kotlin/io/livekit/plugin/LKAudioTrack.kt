@@ -16,7 +16,7 @@
 
 package io.livekit.plugin
 
-import org.webrtc.AudioTrackSink
+import livekit.org.webrtc.AudioTrackSink
 
 interface LKAudioTrack {
 

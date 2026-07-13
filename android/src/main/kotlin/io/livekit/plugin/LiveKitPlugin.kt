@@ -28,7 +28,7 @@ import io.flutter.plugin.common.MethodChannel.Result
 import com.cloudwebrtc.webrtc.FlutterWebRTCPlugin
 import com.cloudwebrtc.webrtc.audio.LocalAudioTrack
 import io.flutter.plugin.common.BinaryMessenger
-import org.webrtc.AudioTrack
+import livekit.org.webrtc.AudioTrack
 
 /** LiveKitPlugin */
 class LiveKitPlugin : FlutterPlugin, MethodCallHandler {

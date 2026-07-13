@@ -16,8 +16,8 @@
 
 package io.livekit.plugin
 
-import org.webrtc.AudioTrack
-import org.webrtc.AudioTrackSink
+import livekit.org.webrtc.AudioTrack
+import livekit.org.webrtc.AudioTrackSink
 
 class LKRemoteAudioTrack(audioTrack: AudioTrack) : LKAudioTrack {
     private var audioTrack: AudioTrack? = audioTrack

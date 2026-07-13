@@ -21,7 +21,7 @@ import android.os.Looper
 import android.util.Log
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.EventChannel
-import org.webrtc.AudioTrackSink
+import livekit.org.webrtc.AudioTrackSink
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 
